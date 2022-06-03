@@ -1,0 +1,8 @@
+# Time-Locked wallet Dapp
+
+This projects presents a Dapp generating time locked wallets.
+The idea is about locking funds in crypto wallet contracts, not allowing the owners to withdrawal their tokens until a certain condition is met related to time.
+This can be used in
+
+- ICO
+- Trust Fund
