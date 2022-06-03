@@ -1,4 +1,4 @@
-# Time-Locked wallet Dapp
+# Time-Locked wallet
 
 This is a smart contracts project implementing time locked wallets.
 The idea is about locking funds in crypto wallet contracts, not allowing the owners to withdrawal their tokens until a certain condition is met related to time.
@@ -9,7 +9,6 @@ The idea is about locking funds in crypto wallet contracts, not allowing the own
 - `TimeLockedWalletFactory.sol` represents the factory where `TimeLockedWallet` contracts are geenrated for different users. It is also responsible for setting different parameters.
 - `BetaToken.sol` ERC20 token that is used during tests.
 
-## Deployed Contracts
 
 ### Useful ressources (To learn more)
 
