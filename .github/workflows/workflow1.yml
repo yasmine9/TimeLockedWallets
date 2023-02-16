@@ -10,6 +10,6 @@ jobs:
         run: |
           curl -X POST https://api.github.com/repos/yasmine9/vault-contract/dispatches \
           -H 'Accept: application/vnd.github.everest-preview+json' \
-          -u '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' \
+          -u ${{ secrets.ACTIONS_KEY }} \
           --data '{"event_type": "ping", "client_payload": { "repository": "'"$GITHUB_REPOSITORY"'" }}'
       - uses: actions/checkout@v3
