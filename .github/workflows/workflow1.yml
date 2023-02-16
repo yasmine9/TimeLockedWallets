@@ -8,7 +8,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Test
         run: |
-          curl -X POST https://api.github.com/repos/vault-contract/dispatches \
+          curl -X POST https://api.github.com/repos/yasmine9/vault-contract/dispatches \
           -H 'Accept: application/vnd.github.everest-preview+json' \
           -u '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' \
           --data '{"event_type": "ping", "client_payload": { "repository": "'"$GITHUB_REPOSITORY"'" }}'
